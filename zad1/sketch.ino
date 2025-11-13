@@ -6,7 +6,7 @@ void showCodeWord(uint8_t value);
 static void MX_GPIO_Init(void);
 
 
-int main(void)
+int main()
 {
   HAL_Init();              // inicijalizacija HAL biblioteke
   SystemClock_Config();    // init takta (generira CubeMX)
